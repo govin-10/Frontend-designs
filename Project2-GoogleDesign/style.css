@@ -1,0 +1,131 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  position: relative;
+  height: 100vh;
+}
+.menu {
+  padding: 1rem;
+  font-size: 0.79rem;
+}
+
+.menuItems {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  align-items: center;
+  gap: 0.2rem;
+}
+.menuItems > li {
+  align-self: center;
+  padding: 0 0.3rem;
+}
+.menuItems > li > a {
+  text-decoration: none;
+}
+.material-symbols-outlined {
+  cursor: pointer;
+  padding: 0.5rem;
+  color: rgb(129, 133, 133);
+}
+.material-symbols-outlined:hover {
+  background-color: rgb(223, 223, 224);
+  border: 0px;
+  border-radius: 50%;
+}
+
+.googleImg {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+img {
+  width: 290px;
+  justify-self: center;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.searchBox {
+  width: 35rem;
+  max-width: 35rem;
+  border: 1px solid #dfe1e5;
+  border-radius: 20px;
+  padding: 0 0.5rem;
+  display: flex;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+}
+.buttonBox {
+  margin-top: 0.9rem;
+}
+.buttonBox > button {
+  border: none;
+  padding: 0.6rem 0.8rem;
+  color: rgb(99, 96, 96);
+}
+
+.formBox > p {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  color: #70757a;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: #f2f2f2;
+  font-size: 0.9rem;
+}
+.country {
+  padding: 0.8rem;
+}
+.footMenus {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+.footMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0.5rem;
+}
+.footMenu > li {
+  padding: 0 0.5rem;
+}
+@media screen and (max-width: 580px) {
+  .searchBox {
+    width: 100%;
+  }
+  .footMenus {
+    flex-direction: column;
+  }
+  .visibility {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+}
